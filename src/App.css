@@ -85,7 +85,7 @@ span{
     background-color: #EFF4FF;
     padding: 80px 30px;
 }
-.bg-features h2{
+.bg-features h1{
     text-align: center;
 }
 
@@ -173,3 +173,12 @@ span{
     background-color: #4648D4;
     color: white;
 }
+/*Temoignages*/
+.temoignages{
+    background-color: #F8F9FF;
+    padding: 80px 30px;
+}
+.temoignages h1{
+    text-align: center;
+}
+

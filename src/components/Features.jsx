@@ -5,7 +5,7 @@ export default function Features(){
     return(
         <>
         <div className="bg-features">
-          <h2>Our Services</h2>
+          <h1>Our Services</h1>
             <p className="description">We offer a comprehensive suite of digital solutions designed to elevate your<br/> brand presence and drive measurable results.</p>
           <div className="service">
                   {services.map((service)=>(
