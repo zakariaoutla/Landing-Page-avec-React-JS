@@ -5,6 +5,7 @@ import Hero from "./components/Hero.jsx";
 import Features from "./components/Features.jsx";
 import Propos from "./components/Propos.jsx";
 import Temoignages from "./components/Temoignages.jsx";
+import Contact from './components/Contact.jsx';
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
         <Features/>
         <Propos/>
         <Temoignages/>
+        <Contact/>
     </>
   )
 }

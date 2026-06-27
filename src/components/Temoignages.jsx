@@ -6,7 +6,7 @@ export default function Temoignages (){
         <>
             <div className="temoignages">
               <h1>What Our Clients Say</h1>
-                <div className="temoignageCard">
+                <div className="rating-container">
                     {temoignages.map((temoignage)=>(
                         <TestimonialCard
                             icon = {temoignage.icon} desc={temoignage.desc} name = {temoignage.name} rating ={temoignage.rating}

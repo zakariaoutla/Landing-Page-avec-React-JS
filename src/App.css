@@ -35,7 +35,7 @@
     display:flex;
     justify-content:space-between;
     background-color:#F7F8FF;
-    height: 78vh;
+    height: auto;
     padding: 30px 30px;
 }
 .hero-text{
@@ -182,3 +182,121 @@ span{
     text-align: center;
 }
 
+.rating-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 24px;
+    margin-top: 60px;
+    
+}
+.card-header{
+    display:flex;
+    gap: 16px;
+    margin-top: 30px;
+}
+.rating-card {
+    background: #fff;
+    padding: 24px;
+    border-radius: 16px;
+    transition: 0.3s ease;
+}
+.rating-card p{
+    margin-top: 30px;
+}
+
+.rating-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
+}
+
+.rating{
+    display: flex;
+    gap: 10px;
+}
+/*Contact */
+.Contact{
+    background-color: #213145;
+    padding: 30px 30px;
+    display: flex;
+}
+
+.text-contact h1{
+   color: white;
+   font-size: 80px;
+}
+.text-contact p{
+    margin-top: 20px;
+    font-weight: bold;
+    color: #C1CBDA;
+}
+.contact-info{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 30px;
+}
+.contact-info i{
+    margin-top: 20px;
+    font-size: 30px;
+    color: #E1E0FF;
+}
+
+.contact-form {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 600px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+}
+
+.form-group label {
+    font-size: 15px;
+    font-weight: 600;
+    color:white;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 14px 16px;
+    border: 1px solid #dcdcdc;
+    border-radius: 10px;
+    font-size: 16px;
+    outline: none;
+    transition: .3s;
+    font-family: inherit;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    border-color: #2563eb;
+    box-shadow: 0 0 0 3px rgba(37, 99, 235, .15);
+}
+
+.form-group textarea {
+    resize: vertical;
+    min-height: 140px;
+}
+
+.send-btn {
+    background: #2563eb;
+    color: white;
+    border: none;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.send-btn:hover {
+    background: #1d4ed8;
+}
