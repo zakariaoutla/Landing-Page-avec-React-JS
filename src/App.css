@@ -300,3 +300,54 @@ span{
 .send-btn:hover {
     background: #1d4ed8;
 }
+/*footer*/
+.footer{
+    background-color: #213145;
+    padding: 40px 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-info{
+    line-height: 50px;
+}
+.footer-info h1{
+   font-size: 60px;
+   font-weight: bold;
+   color: white;
+}
+
+.footer-info p{
+ color: #99A5B5;
+}
+.footer-icon{
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+    color: #99A5B5;
+}
+
+.footer-links h3{
+    color: white;
+}
+.footer-links ul{
+   list-style: none;
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+   margin-top: 10px;
+}
+
+.footer-links ul li a{
+    text-decoration: none;
+    color: #99A5B5;
+}
+
+.copyright{
+    background-color: #213145;
+    text-align: center;
+    padding: 15px 20px;
+    font-weight: bold;
+    color: #99A5B5;
+    
+}
